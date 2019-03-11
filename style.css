@@ -1,0 +1,334 @@
+#fixedimg1
+{
+   top: 0%;
+   left:0%;
+    position: relative;
+   height:100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Kaushan Script', cursive;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-image :  url("assets/birthday-break-breakfast-461430.jpg") ;
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 5000px; */
+    background-attachment: fixed;
+    
+}
+.boximg
+{
+    height: 100%;
+    width: 100%;
+}
+
+.headers{
+    display: flex;
+    align-self: center;
+    position: fixed;
+    background-color: white;
+    width:90%;
+    justify-content: space-between;
+    
+}
+.topheaders{
+    align-self: flex-start;
+    
+    margin-left: 40px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+li{
+    list-style-type: none;
+    margin-left: 12px;
+    margin-right:12px;
+}
+.referencing{
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-end;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    
+
+
+}
+#good
+{
+   margin:20px 20px 20px 0px;
+   
+   font-size:30px;
+}
+button{
+    color:white;
+    background-color: transparent;
+    border-block-end-color: black;
+    justify-content: center;
+    border: solid white 1px;
+    height:40px;
+    width: 150px;
+    transition-duration: 0.4s;
+    
+}
+button:hover
+{
+    background-color:white;
+    color:green;
+    cursor: pointer !important;
+}
+#firstbox{
+    display: flex;
+    justify-content: flex-start;
+    color:rgb(138, 130, 132);
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 200px 0px 250px 200px;
+    
+}
+.gigantic{
+    font-size: 60px;
+    color: white; 
+}
+.boxes{
+display: flex;
+flex-wrap: nowrap;
+background-color:rgb(255, 251, 251); 
+padding: 50px 200px 50px 200px;
+justify-content: center;
+}
+#aq {color: greenyellow;}
+hr{width:80%;}
+.box1{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+    height: 13%;
+    width: 90%;
+}
+.boxes1
+{
+ display: flex;
+ justify-content: left;
+ width:57%;
+    /* display: flex; */
+flex-wrap: wrap;
+background-color:rgb(255, 251, 251); 
+/* padding: 50px 200px 50px 200px; */
+/* justify-content: center; */
+
+}
+.boxes2
+{
+display: flex;
+justify-content: right;
+flex-direction: column;
+
+width: 33%;
+
+    /* display: flex; */
+    flex-wrap: wrap;
+    background-color:rgb(255, 251, 251); 
+    /* padding: 50px 200px 50px 200px; */
+    /* justify-content: center; */
+    }
+.box2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 10px 20px 10px;
+    width: 100%;
+    height: 35%;
+}
+.boximg{
+    width: 50%;
+    height: 100%;
+}
+.boximg2{
+    width: 100%;
+    height: 50%;
+}
+a:hover{
+    color:green;
+}
+.content{ 
+    padding: 50px 50px 50px 50px;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.content2{ 
+    padding: 50px 50px 50px 50px;
+    width: 75%;
+    height: 50%;
+    background-color: white;
+}
+.headbox{ display: flex;
+    color:grey; margin:50px 250 50 40 ; } 
+.boxcontent{} 
+.boxcontentbody{
+    display: flex;
+    margin-top: 50px;
+    
+} 
+.boxcontenthead{
+    display: flex;
+    font-size: 20;
+    font-weight: 600;
+    
+}
+.comments{
+   margin: 0px 30px 30px;
+    justify-content: center;
+    font-size:12px;
+} 
+.responsiveintake {}
+.diffboxes{} 
+.something{} 
+#somethingimg{} 
+.stuff{} 
+#links{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0.5% 0% 0.5% 0%; */
+    /* width: 75%; */
+    /* height: 15%; */
+} 
+.back
+{
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+    background-image :  url("assets/birthday-break-breakfast-461430.jpg") ;
+    /* background-repeat : no-repeat; */
+    background-size: 400 400;
+    background-position: center;
+    
+}
+
+#follow {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font: normal normal bold 26px/1.4em raleway,sans-serif;
+    color: #107070;
+    font-weight: bold;
+    padding-top: 60px;
+}
+#fella {
+	font-size: 0.6em;
+	letter-spacing: 0.1em;
+	font-weight: lighter;
+}
+#fella2 {
+	font-size: 2em;
+
+}
+#collect{
+    display: flex;
+    flex-direction: row;
+	padding-left:0px;
+	margin-top: 20px;
+}
+/* .pbox{margin-top:80px;} */
+.col-1 img {
+	max-height: 278px;
+	max-width: 278px;
+	width: 278px;
+	height: 278px;
+	min-width: 20%;
+}
+.col-1 {width:20%;}
+#subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+} 
+#profilelinks
+#row1 img:hover{background-color: rgb(0,0,0,0.5);}
+#gg
+{
+    margin-right: 10%;
+}
+.enders
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    background-color: rgb(228, 225, 220);
+}
+#subscribeform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    margin-right: 10%;
+} 
+#followsec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50;
+    margin-bottom: 50;
+    height: 50%;
+    color: green;
+} 
+#subscribesec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    margin-bottom: 2%;
+
+} 
+#footer{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size:30;
+    background-color: green;
+} 
+#endsubscribe{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:800px)
+{
+    .boxes1,.boxes2
+    {
+        width: 100%;
+    }
+    .referencing{
+        display: none;
+    }
+    .boxes,.box1,.box2{
+        flex-direction: column;
+    }
+    .col-1{width:50%;}
+    
+}
+
+{
+    font-size: 1vw;
+}
